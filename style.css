@@ -77,43 +77,47 @@ header {
     right: 270px;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-    color: white;
-}
-
-
-
-.titulo {
-    padding: 20px;
-    font-size: 70px;
+.tittle {
     text-align: center;
 }
 
-.text {
+.tittle-h1 {
+    font-size: 120px;
+}
+
+.text-p {
     font-size: 20px;
-    text-align: justify;
+    padding: 10px;
+}
+
+.pessoas {
     display: block;
-    max-width: 950px;
     margin: 0 auto;
+    width: 1000px;
 }
 
-.emergencia {
-    padding-top: 30px;
+.sub {
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
+    padding: 30px;
 }
-
-
 
 .lista {
-    padding: 5px;
+    margin: 0 auto;
     display: block;
-    text-align: center;
-    font-size: 20px;
+    text-align: justify;
+    max-width: 600px;
     list-style: none;
+    font-size: 20px;
+    background-color: #084fbb;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.lista a{
+    text-decoration: none;
+    color: rgb(65, 212, 60);
 }
 
 footer  {
@@ -128,6 +132,13 @@ footer  {
     justify-content: space-around;
     font-size: 20px;
     list-style: none;
+}
+
+.list a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    color: white;
 }
 
 .list a:hover {
