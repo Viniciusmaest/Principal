@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+  }
+  
+header {
+    background-color: rgb(65, 212, 60);
+    color: #084fbb;
+    display: flex;
+    align-items: center;
+    box-shadow: -1px 15px 50px rgb(105, 238, 100);
+}
+
+.logo { 
+    width: 120px;
+    padding-left: 20px;
+}
+
+.name {
+    font-size: 40px;
+    padding-left: 20px;
+}
+  
+#menu-toggle {
+    display: none;
+}
+  
+#menu-icon {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #043f97;
+    padding-top: 5px;
+    transition: all 0.3s ease;
+    z-index: 9999;
+}
+  
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+  
+#sidebar li {
+    padding: 8px;
+}
+  
+#sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+  
+#sidebar a:hover {
+    background-color: #12921c;
+}
+  
+#menu-toggle:checked ~ #sidebar {
+    right: 0;
+}
+
+#menu-toggle:checked + #menu-icon {
+    right: 270px;
+}
+
+.tittle {
+    text-align: center;
+}
+
+.tittle-h1 {
+    font-size: 120px;
+}
+
+.text-p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.pessoas {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.sub {
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.lista {
+    margin: 0 auto;
+    display: block;
+    text-align: justify;
+    max-width: 600px;
+    list-style: none;
+    font-size: 20px;
+    background-color: #084fbb;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.lista a{
+    text-decoration: none;
+    color: rgb(65, 212, 60);
+}
+
+footer  {
+    background-color: rgb(65, 212, 60);
+    color: #084fbb;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.lista-roda {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    list-style: none;
+}
+
+.list a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    color: white;
+}
+
+.list a:hover {
+    background-color: #084fbb;
+}
