@@ -77,47 +77,92 @@ header {
     right: 270px;
 }
 
-.tittle {
-    text-align: center;
+section {
+    padding-left: 25px;
+    text-decoration: none;
 }
 
-.tittle-h1 {
-    font-size: 120px;
+p {
+    font-size: 18px;
 }
 
-.text-p {
-    font-size: 20px;
-    padding: 10px;
-}
-
-.pessoas {
-    display: block;
-    margin: 0 auto;
-    width: 1000px;
-}
-
-.sub {
-    text-align: center;
-    font-size: 40px;
-    padding: 30px;
-}
-
-.lista {
-    margin: 0 auto;
-    display: block;
-    text-align: justify;
-    max-width: 600px;
-    list-style: none;
-    font-size: 20px;
-    background-color: #084fbb;
-    color: white;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.lista a{
+.lon a{
     text-decoration: none;
     color: rgb(65, 212, 60);
+}
+
+.mar a{
+    text-decoration: none;
+    color: #084fbb;
+}
+
+
+a:hover {
+    color: #ccc;
+}
+
+.titulo {
+    padding-top: 20px;
+    margin-left: 20px;
+    font-size:  60px;
+}
+
+
+.londrina {
+    color: white;
+    background-color: #084fbb;
+    padding: 7px;
+    max-width: 150px;
+    border-radius: 10px;
+    font-size: 35px;
+}
+
+.mulher-londrina-text {
+    display: block;
+    text-align: justify;
+    width: 900px;
+}
+
+.lon {
+    color: white;
+    background-color: #084fbb;
+    border-radius: 10px;
+    max-width: 340px;
+    padding: 10px;
+}
+
+.maringa {
+    color: white;
+    background-color: #1ab427;
+    padding: 7px;
+    max-width: 150px;
+    border-radius: 10px;
+    font-size: 35px;
+}
+
+.mar {
+    color: white;
+    background-color: #1ab427;
+    border-radius: 10px;
+    max-width: 340px;
+    padding: 10px;
+}
+
+.apucarana {
+    color: white;
+    background-color: #ce202e;
+    padding: 7px;
+    max-width: 200px;
+    border-radius: 10px;
+    font-size: 35px;
+}
+
+.apu {
+    color: white;
+    background-color: #ce202e;
+    border-radius: 10px;
+    max-width: 340px;
+    padding: 10px;
 }
 
 footer  {
